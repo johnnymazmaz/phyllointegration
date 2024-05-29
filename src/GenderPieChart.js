@@ -2,16 +2,15 @@ import React from 'react';
 import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
 
 const data = [
-    { name: 'X', value: 100000 },
-    { name: 'Instagram', value: 500000 },
-    { name: 'Tiktok', value: 2000000 },
+    { name: 'Male %', value: 28 },
+    { name: 'Female %', value: 72}
 ];
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28'];
 
-const CreatorPieChart = () => {
+const GenderPieChart = () => {
     return (
-        <PieChart width={400} height={400} className="creator-pie-chart">
+        <PieChart width={400} height={400} className="gender-pie-chart">
             <Pie
                 data={data}
                 cx="50%"
@@ -30,4 +29,4 @@ const CreatorPieChart = () => {
     );
 };
 
-export default CreatorPieChart;
+export default GenderPieChart;

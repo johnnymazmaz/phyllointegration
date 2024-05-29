@@ -35,25 +35,48 @@ body, html, #root {
 .creator-chart-container {
     display: flex;
     flex-direction: column; /* Stack the chart and text vertically */
-    align-items: center; /* Center the content */
-    right: 200px;
+    align-items: left; /* Center the content */
+    margin-right: 10px;
     margin-top: 20px; /* Add space above the chart */
 }
 
 .creator-chart {
     display: flex;
-    justify-content: center;
-    transform: translateX(135%);
+    justify-content: left;
+    transform: translateY(-112%);
     margin-bottom: 10px; /* Add space below the chart */
+    
 }
 
 .creator-chart-text {
     display: flex;
-    transform: translateX(180%);
+    transform: translateY(-450px);
+    margin-left: 55px;
+    font-size: 16px; /* Adjust the font size */
+    color: #333; /* Set the text color */
+    
+}
+
+.gender-chart-container {
+    display: flex;
+    flex-direction: column; /* Stack the chart and text vertically */
+    align-items: center; /* Center the content */
+    right: 200px;
+    margin-bottom: 10px; /* Add space above the chart */
+}
+
+.gender-chart {
+    display: flex;
+    justify-content: right;
+    transform: translateY(%);
+    margin-bottom: 10px; /* Add space below the chart */
+}
+
+.gender-chart-text {
+    display: flex;
     font-size: 16px; /* Adjust the font size */
     color: #333; /* Set the text color */
 }
-
 .blitz-header {
     width: 100%;
     height: 100px;
@@ -195,7 +218,7 @@ body, html, #root {
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 18px;
-    transform: translateX(487%); 
+    transform: translateY(-1000%); 
     color: white;
     background-color: black;
     border: none;

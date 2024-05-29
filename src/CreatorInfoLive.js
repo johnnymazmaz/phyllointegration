@@ -32,6 +32,9 @@ function CreatorInfoLive() {
             <p><strong>Total Posts:</strong> </p>
             <p><strong>Average Likes:</strong></p>
             <p><strong>Avg Reel Views:</strong></p>
+            <p><strong>Gender Distribution:</strong></p>
+            <p><strong>Top Countries:</strong></p>
+            <p> <strong>Top Cities:</strong></p>
         </div>
     );
 }
